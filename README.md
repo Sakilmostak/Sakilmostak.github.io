@@ -9,6 +9,6 @@ But wait, you got an extra feature, LEAPS!
  Times are recorded in minutes, seconds and milliseconds, so dont worry if you want to measure to the edge!
 
 Structure:
-     index.html contains the html for the website
-     mystyle.css contains the styling 
+     index.html contains the html for the website |
+     mystyle.css contains the styling | 
      mechanism.js is used for scripting(adding functionality)
