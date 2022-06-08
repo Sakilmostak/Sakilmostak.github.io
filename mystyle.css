@@ -1,0 +1,56 @@
+/* for background */
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, black 50%,rgb(87, 255, 45) 50%);
+}
+
+/* watch face */
+#stopwatch {
+    padding: 40px;
+    margin-top: 50px;
+    background-color: white;
+    border-top-left-radius: 15% 10%;
+}
+
+p{
+    display:inline-block;
+    width: 100px;
+    height: 25px;
+}
+
+/* timer display */
+#showMin, #showSec, #showMsec {
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+    padding-left: 10px;
+}
+
+button {
+    background-color: rgb(87, 255, 45);
+    width: 60px;
+    margin:20px;
+    border-color: rgb(208, 205, 205);
+    border-width: 1px;
+}
+
+/* for ul */
+#leaplist {
+    margin-top: 40px;
+    width: 250px;
+    background-color: white;
+    padding: 5px 20px;
+}
+
+#leaplist ul li {
+    /* list-style: none; */
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin: 5px 0px;
+    height: 30px;
+    border:1px solid red;
+}
